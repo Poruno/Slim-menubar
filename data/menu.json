@@ -1,0 +1,94 @@
+[
+    { "name": "All",
+      "path": "",
+      "submenu": [
+        { 
+          "name": "My Computer",
+          "path": "shell:mycomputerfolder",
+          "submenu": []},
+        { 
+          "name": "Run",
+          "path": "C:\\windows\\system32\\rundll32.exe shell32.dll,#61",
+          "submenu": []},
+        { 
+          "name": "Command Prompt",
+          "path": "cmd",
+          "submenu": []},
+        { 
+          "name": "Control Panel",
+          "path": "control",
+          "submenu": []},
+        { 
+          "name": "Task Manager",
+          "path": "taskmgr",
+          "submenu": []}
+        ]},
+    { 
+      "name": "Internet",
+      "path": "",
+      "submenu": [
+        { 
+          "name": "Google Chrome",
+          "path": "chrome",
+          "submenu": []},
+        { 
+          "name": "Mozilla Firefox",
+          "path": "firefox",
+          "submenu": []},
+        { 
+          "name": "Internet Explorer",
+          "path": "iexplore",
+          "submenu": []}
+      ]},
+    { 
+      "name": "Games" ,
+      "path": "",
+      "submenu": [
+        { 
+          "name": "Discord",
+          "path": "discord/path",
+          "submenu": []},
+        { 
+          "name": "Steam",
+          "path": "\"E:\\Program Files (x86)\\Steam\\Steam.exe\"",
+          "submenu": []}
+        ]},
+    { 
+      "name": "Graphics",
+      "path": "",
+      "submenu": [
+        { 
+          "name": "Adobe Photoshop",
+          "path": "photoshop/path",
+          "submenu": []},
+        { 
+          "name": "Adobe Illustrator",
+          "path": "illustrator/path",
+          "submenu": []}
+        ]},
+    { 
+      "name": "Media",
+      "path": "",
+      "submenu": []},
+    {
+      "name": "Productivity",
+      "path": "",
+      "submenu": []},
+    { 
+      "name": "Development",
+      "path": "",
+      "submenu": [
+        { 
+          "name": "Visual Studio Code",
+          "path": "visualstudiocode/path",
+          "submenu": []},
+        { 
+          "name": "Visual Studio 2018",
+          "path": "visualstudio2018/path",
+          "submenu": []},
+        { 
+          "name": "Notepad",
+          "path": "notepad",
+          "submenu": []}
+        ]}
+]
