@@ -12,6 +12,13 @@ Disabled=1
 [Rainmeter]
 LeftMouseDownAction=[!HideMeterGroup All][!HideMeterGroup Internet][!HideMeterGroup Games][!HideMeterGroup Graphics][!HideMeterGroup Media][!HideMeterGroup Productivity][!HideMeterGroup Development][!Redraw]
 
+[PaddingLeft]
+Meter=String
+X=#PaddingLeft#
+Y=(#PaddingTop#+4)
+W=25
+H=25
+
 [All]
 Meter=String
 FontColor=200,200,200,255

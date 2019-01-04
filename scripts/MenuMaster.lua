@@ -47,6 +47,13 @@ function UpdateMenusMeter ()
 		parameters = parameters .. "]"
 	end
 	base = base .. parameters .. "[!Redraw]\n"
+
+	base = base .. "\n[PaddingLeft]\n"
+	.."Meter=String\n"
+	.."X=#PaddingLeft#\n"
+	.."Y=(#PaddingTop#+4)\n"
+	.."W=25\n"
+	.."H=25\n" 
 	
 	-- OPEN FILE.
 	local file = io.open(SKIN:MakePathAbsolute(menusPath), "w+")
