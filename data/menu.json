@@ -7,10 +7,6 @@
           "path": "shell:mycomputerfolder",
           "submenu": []},
         { 
-          "name": "Run",
-          "path": "C:\\windows\\system32\\rundll32.exe shell32.dll,#61",
-          "submenu": []},
-        { 
           "name": "Command Prompt",
           "path": "cmd",
           "submenu": []},
@@ -66,14 +62,6 @@
           "path": "illustrator/path",
           "submenu": []}
         ]},
-    { 
-      "name": "Media",
-      "path": "",
-      "submenu": []},
-    {
-      "name": "Productivity",
-      "path": "",
-      "submenu": []},
     { 
       "name": "Development",
       "path": "",
